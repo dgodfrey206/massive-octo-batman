@@ -1,6 +1,7 @@
 #include "upcasebuffer.h"
 #include <iostream>
 #include <sstream>
+#include <string>
 
 int main()
 {
