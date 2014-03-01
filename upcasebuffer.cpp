@@ -9,7 +9,8 @@ class io_buffer : public std::streambuf
 {
 public:
     io_buffer(std::ostream& os, int buf_size = 4)
-        : os_(os), buffer(buf_size)
+        : os_(os)
+        , buffer(buf_size)
     {
         os_.clear();
         char* beg = buffer.data();
